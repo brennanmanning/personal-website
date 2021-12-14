@@ -1,5 +1,5 @@
 import * as React from "react";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import Layout from "../../components/layout";
 
 const BlogPage = ({ data }) => {
@@ -23,7 +23,7 @@ export const query = graphql`
       nodes {
         frontmatter {
           title
-          date(formatString: "MMMM DD, YYYY")
+          date
         }
         id
         slug
