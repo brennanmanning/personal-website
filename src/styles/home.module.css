@@ -21,8 +21,18 @@
 
 .flavor-section {
   display: grid;
-  grid-template-columns: 300px auto;
-  column-gap: 50px;
-  align-items: center;
+  grid-template-rows: 400px auto;
+  row-gap: 50px;
+  justify-items: center;
   padding-bottom: 50px;
+}
+
+@media (min-width: 600px) {
+  .flavor-section {
+    display: grid;
+    grid-template-columns: 300px auto;
+    column-gap: 50px;
+    align-items: center;
+    padding-bottom: 50px;
+  }
 }

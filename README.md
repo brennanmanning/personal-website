@@ -3,7 +3,7 @@ This is the repository for my personal website. It has a little background about
 
 ## To Do:
 
-- [ ] Add better mobile support
+- [x] Add better mobile support
 - [ ] Add blog posts
 - [ ] Improve the style of the navbar
 - [ ] Add a link to my github
