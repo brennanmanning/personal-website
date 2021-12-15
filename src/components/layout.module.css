@@ -1,6 +1,11 @@
+body {
+  background-color: #2a2f38;
+  color: #ffffff;
+}
+
 .container {
-  margin: auto;
-  max-width: 500px;
+  margin: 10px auto;
+  max-width: 1000px;
   font-family: sans-serif;
 }
 
@@ -19,12 +24,17 @@
 }
 
 .nav-link-text {
-  color: black;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-link-text:hover {
+  text-decoration: underline;
 }
 
 .site-title {
   font-size: 3rem;
-  color: grey;
   font-weight: 700;
   margin: 3rem 0;
 }

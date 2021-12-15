@@ -5,18 +5,12 @@ import Layout from "../../components/layout";
 const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="Blog">
-      {data.allMdx.nodes.map((node) => (
-        <article key={node.id}>
-          <h2>
-            <Link to={`/blog/${node.slug}`}>{node.frontmatter.title}</Link>
-          </h2>
-          <p>Posted: {node.frontmatter.date}</p>
-        </article>
-      ))}
+      <h2> No Blog Posts yet ...</h2>
     </Layout>
+
   );
 };
-
+/*
 export const query = graphql`
   query {
     allMdx(sort: { fields: frontmatter___date, order: DESC }) {
@@ -31,4 +25,14 @@ export const query = graphql`
     }
   }
 `;
+Code for listing out the blog posts
+      {data.allMdx.nodes.map((node) => (
+        <article key={node.id}>
+          <h2>
+            <Link to={`/blog/${node.slug}`}>{node.frontmatter.title}</Link>
+          </h2>
+          <p>Posted: {node.frontmatter.date}</p>
+        </article>
+      ))}
+*/
 export default BlogPage;

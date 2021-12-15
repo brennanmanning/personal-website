@@ -1,0 +1,28 @@
+.heading {
+  text-decoration: underline;
+  text-decoration-color: #cccccc;
+  text-decoration-thickness: 2px;
+  font-size: 1.75rem;
+}
+
+.bio-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.25rem;
+}
+
+.flavor-text {
+  font-size: 1.5rem;
+}
+
+.img {
+  border-radius: 100%;
+}
+
+.flavor-section {
+  display: grid;
+  grid-template-columns: 300px auto;
+  column-gap: 50px;
+  align-items: center;
+  padding-bottom: 50px;
+}

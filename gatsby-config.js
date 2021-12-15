@@ -4,7 +4,6 @@ module.exports = {
     title: "personal-website",
   },
   plugins: [
-    "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
       options: {
