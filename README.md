@@ -4,7 +4,8 @@ This website is inteded to be my landing page on the internet. This website is b
 
 ## To Do
 
-- [ ] Add a Link to my GitHub from my Website
+- [x] Add a Link to my GitHub from my Website
 - [ ] Write Some Blog Posts
 - [ ] Add a Light Mode Button to be able to Toggle Between Light and Dark Modes
+- [ ] Add a "Logo", randomly generated graph of random walk???
 
