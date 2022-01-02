@@ -36,6 +36,11 @@ const {title, name} = Astro.props;
         font-weight: 700;
         margin: 2rem 0;
       }
+
+      .img-link {
+        margin-left: auto;
+        margin-right: 0;
+      }
     </style>
     <nav>
       <ul class="nav-links">
@@ -44,6 +49,11 @@ const {title, name} = Astro.props;
         </li>
         <li class="nav-link-item">
          <a href="/blog" class="nav-link-text">Blog</a>
+        </li>
+        <li class="img-link">
+          <a href="https://github.com/brennanmanning">
+            <img src="assets/GitHub-Mark-Light-32px.png" alt="GitHub"/>
+          </a>
         </li>
       </ul>
     </nav>
