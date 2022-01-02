@@ -1,0 +1,54 @@
+---
+const {title, name} = Astro.props;
+---
+
+<html>
+  <head>
+    <title>
+      {title} | Brennan Manning
+    </title>
+    <link rel="stylesheet" type="text/css" href={Astro.resolve('../styles/global.css')}/>
+  </head>
+  <body>
+    <style>
+      .nav-links {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .nav-link-item {
+        padding-right: 2rem;
+      }
+
+      .nav-link-text {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+
+      .nav-link-text:hover {
+        text-decoration: underline;
+      }
+
+      .site-title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 2rem 0;
+      }
+    </style>
+    <nav>
+      <ul class="nav-links">
+        <li class="nav-link-item">
+          <a href="/" class="nav-link-text">Home</a>
+        </li>
+        <li class="nav-link-item">
+         <a href="/blog" class="nav-link-text">Blog</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="site-title"> 
+      {name}
+    </h1>
+    <slot />
+  </body>
