@@ -34,12 +34,17 @@ const { content } = Astro.props;
       .post-title {
         font-size: 3rem;
         font-weight: 500;
-        margin: 2rem 0;
+        margin: 2rem 0 0;
       }
 
       .img-link {
         margin-left: auto;
         margin-right: 0;
+      }
+
+      .blog-date {
+        color: #b3ced7;
+        margin: 0.5rem 0 0.5rem;
       }
     </style>
     <nav>
@@ -60,9 +65,9 @@ const { content } = Astro.props;
     <h1 class="post-title"> 
       {content.title}
     </h1>
-    <h2>
+    <p class="blog-date">
       {content.date}
-    </h2>
+    </p>
     <slot />
   </body>
 </html>
