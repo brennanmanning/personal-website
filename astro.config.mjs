@@ -12,4 +12,17 @@ export default {
     // port: 3000,             // The port to run the dev server on.
   },
   renderers: [],
+  markdownOptions: {
+    render: [
+      '@astrojs/markdown-remark',
+      {
+        remarkPlugins: [
+          'remark-math',
+        ],
+        rehypePlugins: [
+          'rehype-katex',
+        ]
+      }
+    ]
+  }
 };

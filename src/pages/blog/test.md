@@ -9,4 +9,13 @@ description: First test post
 
 Lets see if this works *right* huh **cool**
 
+Does math $x^2$ work?
 
+$$
+\phi^2 = 1
+$$
+
+
+$$
+\exp (x)
+$$
