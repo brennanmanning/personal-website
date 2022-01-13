@@ -12,6 +12,7 @@
     "astro": "^0.22.3"
   },
   "dependencies": {
+    "prismjs": "^1.26.0",
     "rehype-katex": "^6.0.2",
     "remark-math": "^5.1.1"
   }
