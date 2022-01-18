@@ -2,6 +2,7 @@ import useDarkMode from "../lib/useDarkMode";
 import Link from "next/link";
 import Image from "next/image";
 import { MoonIcon, SunIcon } from "@heroicons/react/outline"
+import github_logo from "../public/GitHub-Mark-32px.png"
 
 export default function Navbar() {
   const [colorTheme, setTheme] = useDarkMode();
@@ -25,7 +26,7 @@ export default function Navbar() {
         <div className="rounded-full hover:shadow-lg hover:shadow-stone-600 dark:hover:shadow-zinc-50 dark:invert">
           <Link href="https://github.com/brennanmanning" passHref>
             <Image
-              src="/Github-Mark-32px.png"
+              src={github_logo}
               alt="GitHub"
               height="32"
               width="32"
