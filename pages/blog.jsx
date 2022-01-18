@@ -1,18 +1,18 @@
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import Link from "next/link";
-import { getSortedPostsData } from "../lib/posts";
+//import { getSortedPostsData } from "../lib/posts";
 
-export async function getStaticProps() {
+/*export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
     props: {
       allPostsData,
     },
   };
-}
+}*/
 
-export default function Blog({ allPostsData }) {
+export default function Blog(/*{ allPostsData }*/) {
   return (
     <div className="md:mx-40 lg:mx-80">
       <Head>
@@ -22,6 +22,7 @@ export default function Blog({ allPostsData }) {
       <h1 className="text-6xl mb-4">Blog</h1>
       <div className="mt-8">
         <p className="text-2xl"> No Posts Yet...</p>
+    {/*
         <ul>
           {allPostsData.map(({ id, date, excerpt, title}) => (
             <li key={id}>
@@ -41,7 +42,7 @@ export default function Blog({ allPostsData }) {
               <div className="pb-2"/>
             </li>
           ))}
-        </ul>
+        </ul>*/}
       </div>
     </div>
   );
