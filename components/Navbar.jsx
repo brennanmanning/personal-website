@@ -23,7 +23,7 @@ export default function Navbar() {
         ) : (
           <MoonIcon onClick={() => setTheme("dark")} className="h-10 w-10 mr-4"/>
         )}
-        <div className="rounded-full hover:shadow-lg hover:shadow-stone-600 dark:hover:shadow-zinc-50 dark:invert">
+        <div className="rounded-full hover:drop-shadow-[0_20px_13px_rgba(87,83,78,0.75)] dark:invert dark:hover:drop-shadow-[0_20px_13px_rgba(250,250,250,0.4)]">
           <Link href="https://github.com/brennanmanning" passHref>
             <Image
               src={github_logo}
