@@ -73,7 +73,7 @@ export default function Home({
         <h3 className="text-3xl underline decoration-slate-900 decoration-3 mb-2 underline-offset-2 dark:decoration-gray-300">
           Blog
         </h3>
-        <ul>
+        <ul className="mt-4">
           {allPostsData.slice(0, 3).map(({ id, date, excerpt, title }) => (
             <li key={id}>
               <div className="rounded-md shadow-md shadow-stone-600 py-4 text-blue-500 hover:text-blue-800 dark:shadow-zinc-900 dark:text-neutral-300 dark:hover:text-neutral-500">
