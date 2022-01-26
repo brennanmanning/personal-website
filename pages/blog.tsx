@@ -15,7 +15,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
 export default function Blog({ allPostsData }) {
   return (
-    <div className="md:mx-40 lg:mx-80">
+    <div className="mx-4 md:mx-40 lg:mx-80">
       <Head>
         <title>Blog | Brennan Manning</title>
       </Head>

@@ -24,7 +24,7 @@ export default function Post({
           crossOrigin="anonymous"
         />
       </Head>
-      <div className="md:mx-40 lg:mx-80">
+      <div className="mx-4 md:mx-40 lg:mx-80">
         <Navbar />
         <h1 className="text-5xl mb-4">{postData.title}</h1>
         <h3 className="text-xl text-slate-400 mb-8">{postData.date}</h3>

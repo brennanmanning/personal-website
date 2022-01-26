@@ -20,7 +20,7 @@ export default function Home({
   allPostsData: { date: string; excerpt: string; title: string; id: string }[];
 }) {
   return (
-    <div className="md:mx-40 lg:mx-80">
+    <div className="mx-4 md:mx-40 lg:mx-80">
       <Head>
         <title>Home | Brennan Manning</title>
       </Head>
@@ -40,13 +40,10 @@ export default function Home({
           <p className="text-2xl lg:ml-8">
             Hi there. I&apos;m Brennan Manning, a recent graduate from the
             University of Amsterdam where I got my Masters&apos; in Econometrics
-            with a specialization in Financial Econometrics. Right now I&apos;m
-            interested in option pricing and I&apos;m currently writing a python
-            library to help with this. Outside of that, some of my hobbies are
-            reading, programming, and learning. Right now, some of my projects
-            are building this website and playing around with GNU/Linux with
-            Void Linux. As for my current book, I am reading The Brothers
-            Karamazov by Fyodor Dostoevsky.
+            with a specialization in Financial Econometrics. Usually, I'm either
+            reading a book or trying to teach myself something new. Right now, I
+            am teaching myself Typescript and web dev while building this
+            website.
           </p>
         </div>
       </div>
