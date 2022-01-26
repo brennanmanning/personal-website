@@ -40,7 +40,7 @@ export default function Home({
           <p className="text-2xl lg:ml-8">
             Hi there. I&apos;m Brennan Manning, a recent graduate from the
             University of Amsterdam where I got my Masters&apos; in Econometrics
-            with a specialization in Financial Econometrics. Usually, I'm either
+            with a specialization in Financial Econometrics. Usually, I&apos;m either
             reading a book or trying to teach myself something new. Right now, I
             am teaching myself Typescript and web dev while building this
             website.
